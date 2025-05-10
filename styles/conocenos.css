@@ -1,0 +1,17 @@
+#conocenos h2{
+    font-family:serif;
+    color: #4F9FB3;
+}
+#conocenos p{
+    color: #5e7175;
+}
+#img-conocenos{
+    object-fit: cover; 
+    height: 300px;
+    box-shadow: 1px 1px 8px #24BD76;
+}
+@media (min-width:1200px) {
+  #conocenos .tamaño-fuente{
+    font-size: 1.2rem;
+  }
+}
