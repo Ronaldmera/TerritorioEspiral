@@ -1,0 +1,59 @@
+#hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hero p{
+    font-size: 1.4rem;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;  /* Esto coloca la imagen detrás del contenido */
+}
+
+/* Capa oscura para mejor contraste del texto */
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.box-hero {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+/* Botones */
+.botones a {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+}
+.botones a:nth-child(1){
+    background-color: #4f9fb3;
+}
+.botones a:nth-child(2){
+    background-color: #24bd76;
+}
+.botones a:hover {
+    background-color: #5a685e;
+}
