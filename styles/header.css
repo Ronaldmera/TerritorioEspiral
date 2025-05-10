@@ -1,0 +1,55 @@
+
+/* boton hamburguesa */
+/* padre del menu hamburguesa */
+.navbar-toggler {
+  background-color:rgba(50, 148, 135, 0.836);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 1rem;
+  font-size: 1.8rem; 
+}
+/* las 3 lineas del menu hamburguesa */
+.navbar-toggler .bar {
+  width: 20px;
+  height: 3px;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+/* nombre de la iglesia */
+.navbar .name{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #76abe9;
+}
+.nav-link:hover{
+ color: rgb(107, 204, 211);
+}
+/* Cuando el botón tiene la clase "open" (cuando se hace clic) */
+.navbar-toggler.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px); /* Rotamos la primera barra */
+}
+
+.navbar-toggler.open .bar:nth-child(2) {
+  opacity: 0; /* La segunda barra desaparece */
+}
+
+.navbar-toggler.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px); /* Rotamos la tercera barra */
+}
+
+@media (max-width: 720px) {
+  .navbar .name{
+   font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .name{
+   font-size:1rem ;
+  }
+}

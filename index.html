@@ -16,9 +16,42 @@
 
     <!-- estilos css -->
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+    <!-- scripts -->
+    <script src="script/hamburguer.js" defer></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top ">
+        <div class="container-fluid px-5">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo1.png" alt="Logo" width="60">
+            </a>
+            <p class="name my-auto">Territorio Espiral</p>
+
+            <!-- Botón responsive -->
+            <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation" id="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Contenido del navbar -->
+            <div class="collapse navbar-collapse justify-content-end px-1" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Donación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 </body>
