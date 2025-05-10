@@ -2,7 +2,7 @@
 /* boton hamburguesa */
 /* padre del menu hamburguesa */
 .navbar-toggler {
-  background-color:rgba(50, 148, 135, 0.836);
+  background-color:#0a8754;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,10 +21,14 @@
 }
 /* nombre de la iglesia */
 .navbar .name{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 500;
+font-family: "Quicksand", sans-serif;
+  font-weight:400;
   font-size: 2rem;
-  color: #76abe9;
+  font-style: oblique;
+  color: #508ca4;
+}
+.nav-link{
+    color: #0a8754;
 }
 .nav-link:hover{
  color: rgb(107, 204, 211);
