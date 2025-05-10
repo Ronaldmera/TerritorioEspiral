@@ -57,3 +57,8 @@
 .botones a:hover {
     background-color: #5a685e;
 }
+.onda{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
