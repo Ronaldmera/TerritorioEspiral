@@ -1,6 +1,9 @@
 
 /* boton hamburguesa */
 /* padre del menu hamburguesa */
+.navbar{
+    background-color: #FFFF;
+}
 .navbar-toggler {
   background-color:#0a8754;
   display: flex;
@@ -28,7 +31,9 @@ font-family: "Quicksand", sans-serif;
   color: #508ca4;
 }
 .nav-link{
-    color: #0a8754;
+    font-weight: 600;
+    color: #0aac6b;
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 .nav-link:hover{
  color: rgb(107, 204, 211);
@@ -45,7 +50,6 @@ font-family: "Quicksand", sans-serif;
 .navbar-toggler.open .bar:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px); /* Rotamos la tercera barra */
 }
-
 @media (max-width: 720px) {
   .navbar .name{
    font-size: 1.6rem;
