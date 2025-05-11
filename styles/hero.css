@@ -35,7 +35,7 @@
 
 .box-hero {
     position: relative;
-    z-index: 2;
+    z-index: 34;
     max-width: 800px;
 }
 /* Botones */
