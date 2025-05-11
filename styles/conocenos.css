@@ -1,6 +1,7 @@
 #conocenos h2{
     font-family:serif;
     color: #4F9FB3;
+    font-weight: bolder;
 }
 #conocenos p{
     color: #5e7175;
@@ -8,7 +9,8 @@
 #img-conocenos{
     object-fit: cover; 
     height: 300px;
-    box-shadow: 1px 1px 8px #24BD76;
+    width: auto;
+     filter: drop-shadow(1px 1px 3px rgb(8, 202, 250));
 }
 @media (min-width:1200px) {
   #conocenos .tamaño-fuente{
