@@ -1,19 +1,26 @@
+#conocenos{
+  /* background-color: rgb(10, 12, 12); */
+ background-color: #121212;
+}
 #conocenos h2{
     font-family:serif;
     color: #4F9FB3;
     font-weight: bolder;
 }
 #conocenos p{
-    color: #5e7175;
+    color: #728083;
+}
+#conocenos .phrase{
+  color: #c1c9ca;
 }
 #img-conocenos{
     object-fit: cover; 
     height: 300px;
     width: auto;
-     filter: drop-shadow(1px 1px 3px rgb(8, 202, 250));
+     filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
 }
 @media (min-width:1200px) {
-  #conocenos .tamaño-fuente{
+  #conocenos, #gallery .tamaño-fuente{
     font-size: 1.2rem;
   }
 }

@@ -1,0 +1,19 @@
+ #gallery h2{
+    font-family:serif;
+    color: #4F9FB3;
+    font-weight: bolder;
+}
+ .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.mi-carrusel {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .mi-carrusel {
+    width: 50%;
+  }
+}
