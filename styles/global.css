@@ -12,3 +12,7 @@ body,html{
 #contacto {
   scroll-margin-top: 80px; /* Ajusta según el alto de tu navbar */
 }
+
+body{
+  background-color: #ffff;
+}

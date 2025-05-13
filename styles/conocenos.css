@@ -1,6 +1,6 @@
 #conocenos{
   /* background-color: rgb(10, 12, 12); */
- background-color: #121212;
+ /* background-color: #121212; */
 }
 #conocenos h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,7 +11,7 @@
     color: #728083;
 }
 #conocenos .phrase{
-  color: #c1c9ca;
+  color: #2693a1;
 }
 #img-conocenos{
     object-fit: cover; 
