@@ -1,0 +1,13 @@
+#donation{
+
+}
+#donation .container h2{
+font-family:serif;
+color: #4F9FB3;
+font-weight: bolder;
+
+}
+
+#donation .card-body:hover{
+    /* background-color: rgb(87, 87, 145); */
+}

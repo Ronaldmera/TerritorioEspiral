@@ -20,7 +20,7 @@
      filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
 }
 @media (min-width:1200px) {
-  #conocenos, #gallery .tamaño-fuente{
+  #conocenos, #gallery, #donation .tamaño-fuente{
     font-size: 1.2rem;
   }
 }
