@@ -3,6 +3,9 @@
     color: #4F9FB3;
     font-weight: bolder;
 }
+#gallery p{
+   color: #728083;
+}
  .carousel-item img {
     height: 500px;
     object-fit: cover;

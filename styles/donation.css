@@ -1,11 +1,13 @@
 #donation{
 
 }
+#donation p{
+     color: #728083;
+}
 #donation .container h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: #4F9FB3;
 font-weight: bolder;
-
 }
 #donation .img-huellas{
     display: flex;
