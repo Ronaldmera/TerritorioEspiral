@@ -7,6 +7,10 @@ color: #4F9FB3;
 font-weight: bolder;
 
 }
+#donation .img-huellas{
+    display: flex;
+    height: 150px;
+}
 
 #donation .card-body:hover{
     /* background-color: rgb(87, 87, 145); */
