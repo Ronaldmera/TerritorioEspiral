@@ -2,7 +2,7 @@
 /* boton hamburguesa */
 /* padre del menu hamburguesa */
 .navbar{
-    background-color: #181616;
+    background-color: #FFFF;
 }
 .navbar-toggler {
   background-color:#0a8754;
@@ -22,10 +22,9 @@
   border-radius: 2px;
   transition: all 0.3s ease;
 }
-/* nombre de la iglesia */
 .navbar .name{
-font-family: "Quicksand", sans-serif;
-  font-weight:400;
+font-family:monospace;
+  font-weight:bolder;
   font-size: 2rem;
   font-style: oblique;
   color: #508ca4;
