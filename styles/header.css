@@ -5,7 +5,7 @@
     background-color: #FFFF;
 }
 .navbar-toggler {
-  background-color:#0a8754;
+  background-color:#3a506b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,11 +27,11 @@ font-family:monospace;
   font-weight:bolder;
   font-size: 2rem;
   font-style: oblique;
-  color: #508ca4;
+  color:#5bc0be;
 }
 .nav-link{
     font-weight: 600;
-    color: #4F9FB3;
+    color:#3a506b;
     font-size: clamp(1rem, 2vw, 1.2rem);
 }
 .nav-link:hover{
