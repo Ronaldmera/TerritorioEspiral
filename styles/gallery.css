@@ -6,6 +6,9 @@
 #gallery p{
    color: #728083;
 }
+#gallery .card{
+  border: 1px solid #5BC0BE;
+}
 #gallery .img{
 height: 300px;
 object-fit: cover;
@@ -24,8 +27,8 @@ object-fit: cover;
   opacity: 1;
 }
 @media (max-width:400px) {
-  #gallery .img{
-height: 200px;
-object-fit: cover;
-}
+    #gallery .img{
+    height: 200px;
+    object-fit: cover;
+  }
 }
