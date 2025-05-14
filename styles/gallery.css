@@ -26,6 +26,13 @@ object-fit: cover;
   max-height: 3000px; /* aumenta este valor hasta que se vea la última tarjeta completa */
   opacity: 1;
 }
+#gallery .btn{
+  background-color: #24BD76;
+  color: whitesmoke;
+}
+#gallery .btn:hover{
+  background-color: #5bc0be;
+}
 @media (max-width:400px) {
     #gallery .img{
     height: 200px;
