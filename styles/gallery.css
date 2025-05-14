@@ -6,6 +6,21 @@
 #gallery p{
    color: #728083;
 }
+#gallery .img{
+height: 300px;
+object-fit: cover;
+}
 
+/* contenedor de cartas ocultas */
+.collapse-cards {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.6s ease;
+  opacity: 0;
+}
 
+.collapse-cards.show {
+  max-height: 3000px; /* aumenta este valor hasta que se vea la última tarjeta completa */
+  opacity: 1;
+}
 
