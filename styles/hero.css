@@ -50,6 +50,7 @@
     text-decoration: none;
     border-radius: 20px;
     transition: background 0.3s ease;
+    border: none;
 }
 .botones a:nth-child(1){
     background-color: #4f9fb3;
