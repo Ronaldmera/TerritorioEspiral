@@ -23,4 +23,9 @@ object-fit: cover;
   max-height: 3000px; /* aumenta este valor hasta que se vea la última tarjeta completa */
   opacity: 1;
 }
-
+@media (max-width:400px) {
+  #gallery .img{
+height: 200px;
+object-fit: cover;
+}
+}
