@@ -6,20 +6,22 @@
 body,html{
     font-size: 62.5%;
 } */
- #conocenos,
+#conocenos,
 #gallery,
-#donacion,
-#contacto {
+#donation,
+#contact {
   scroll-margin-top: 80px; /* Ajusta según el alto de tu navbar */
 }
 
-body{
+body {
   background-color: #ffff;
 }
 /* 
 tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
-@media (min-width:1200px) {
-  #conocenos, #gallery, #donation .tamaño-fuente{
+@media (min-width: 1200px) {
+  #conocenos,
+  #gallery,
+  #donation .tamaño-fuente {
     font-size: 1.2rem;
   }
 }
