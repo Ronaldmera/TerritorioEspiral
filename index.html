@@ -259,13 +259,18 @@
         <!-- Modal para ver imagen ampliada -->
         <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-md">
-                <div class="modal-content bg-dark">
+                <div class="modal-content bg-dark position-relative">
+                    <!-- Botón de cerrar -->
+                    <button type="button" class="btn-close bg-white top-0 m-2" data-bs-dismiss="modal"
+                        aria-label="Cerrar"></button>
+
                     <div class="modal-body p-0">
                         <img src="" id="modalImage" class="img-fluid w-100 rounded-2" alt="Imagen ampliada">
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section id="donation" class="py-5 bg-dark">
