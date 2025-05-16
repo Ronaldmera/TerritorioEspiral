@@ -20,6 +20,7 @@ body {
 tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
 @media (min-width: 1200px) {
   #conocenos,
+  #estadisticas,
   #gallery,
   #donation .tamaño-fuente {
     font-size: 1.2rem;

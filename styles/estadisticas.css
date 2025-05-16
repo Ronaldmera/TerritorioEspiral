@@ -1,0 +1,18 @@
+#estadisticas .c1{
+    max-width: 50rem;
+}
+ #estadisticas h2{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5bc0be;
+    font-weight: bolder;
+}
+ #estadisticas .text-black{
+    color: #0B132B;
+ }
+ #estadisticas img{
+    height: 70px;
+    object-fit: cover;
+ }
+ #estadisticas p{
+    color: #728083;
+}
