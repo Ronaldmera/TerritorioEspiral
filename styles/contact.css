@@ -29,6 +29,13 @@
 .papa-cards {
   padding-top: 2.7rem;
 }
+/* @media (min-width: 992px) {
+.box-big{
+  display: flex;
+  flex-direction: column;
+}
+} */
+
 @media (max-width: 430px) {
   #contact .card img {
     height: 40px;
