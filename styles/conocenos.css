@@ -15,7 +15,8 @@
 }
 #img-conocenos{
     object-fit: cover; 
-    height: 300px;
-    width: auto;
+    /* height: 300px;
+    width: auto; */
+
      filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
 }
