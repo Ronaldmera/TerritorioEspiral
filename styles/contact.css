@@ -1,5 +1,5 @@
 #contact {
-  background-color: #f8f9fa;
+  background-color: ##ADE0DF;
 }
 #contact h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -21,7 +21,7 @@
   height: 60px;
 }
 .form-contact {
-  background-color: #5bc0be;
+  background-color: #ADE0DF;
 }
 .form-contact label {
   color: #ffff;

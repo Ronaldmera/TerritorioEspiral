@@ -9,3 +9,10 @@
     box-shadow: 0 0 5px 3px #a7e7e6;
     transform: scale(1.05);
 }
+
+footer{
+  color: #0b132b;
+}
+footer a{
+  color: #0b132b;
+}

@@ -4,6 +4,11 @@
 #donation p{
     color: #a7b7bb;
 }
+
+#donation .random-Phrase{
+    font-style: italic;
+    color: #FFFFFF;
+}
 #donation .container h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#5BC0BE;
