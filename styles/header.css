@@ -50,6 +50,12 @@ font-family:monospace;
 .navbar-toggler.open .bar:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px); /* Rotamos la tercera barra */
 }
+.navbar.fixed-top {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    right: 0 !important;
+}
+
 @media (max-width: 720px) {
   .navbar .name{
    font-size: 1.6rem;

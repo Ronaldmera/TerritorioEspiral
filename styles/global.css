@@ -16,6 +16,7 @@ html, body {
   overflow-x: hidden;
   background-color: #ffff;
   font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
 }
 /* 
 tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
