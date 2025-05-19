@@ -32,15 +32,16 @@
     <link rel="stylesheet" href="styles/contact.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/estadisticas.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- scripts -->
-
-
     <script src="script/hamburguer.js" defer></script>
     <script src="script/showMoreCards.js" defer></script>
     <script src="script/modalImgZoom.js" defer></script>
     <script src="script/sendEmail.js" defer></script>
     <script src="script/randomPhrase.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -126,7 +127,7 @@
             </button>
         </div>
     </section>
-    <section id="estadisticas" class="text-center py-5 bg-light .tamaño-fuente">
+    <section id="estadisticas" class="text-center py-5 bg-light .tamaño-fuente" data-aos="fade">
         <div class="container c1">
             <h2 class="fw-bold mb-3 display-5">Hogar para más de <span class="text-black">1.800</span> perros</h2>
             <p class="mb-4 px-md-5">
@@ -180,10 +181,10 @@
     <section id="conocenos" class="py-5">
         <div class="container d-flex flex-column">
             <!-- <h2 class="mx-auto pb-4">Conócenos</h2> -->
-            <div class="row align-items-center g-4">
+            <div class="row align-items-center g-4" data-aos="fade">
                 <div class="col-12 col-xxl-6 tamaño-fuente">
                     <h2 class="mx-auto pb-4 text-center display-5">Nuestra Misión</h2>
-                    <p>
+                    <p data-aos="fade-right">
                         <strong>Territorio Espiral</strong> es una fundación sin ánimo de
                         lucro dedicada al rescate, protección y bienestar de los animales.
                         Creemos que todos los seres vivos merecen un lugar seguro y
@@ -200,13 +201,14 @@
                     </p>
                 </div>
                 <div class="col-12 d-flex justify-content-center col-xxl-6">
-                    <img src="img/conocenos/foto1.png" class="img-fluid rounded-3" alt="" id="img-conocenos" />
+                    <img src="img/conocenos/foto1.webp" class="img-fluid rounded-3" alt="" id="img-conocenos"
+                        data-aos="fade-left" />
                 </div>
             </div>
-            <div class="row align-items-center g-4 flex-row-reverse mt-5 pt-5">
+            <div class="row align-items-center g-4 flex-row-reverse mt-5 pt-5" data-aos="fade">
                 <h2 class="mx-auto pb-2 text-center display-5">Nuestra Historia</h2>
                 <div class="col-12 col-xxl-6 tamaño-fuente">
-                    <p>
+                    <p data-aos="fade-left">
                         Lo que comenzó como un pequeño gesto de rescate para ayudar a un
                         animalito en necesidad, se ha transformado en un movimiento de
                         rescate animal que toca vidas y cambia realidades. Desde los
@@ -221,13 +223,14 @@
                     </p>
                 </div>
                 <div class="col-12 d-flex justify-content-center col-xxl-6">
-                    <img src="img/conocenos/foto2.png" class="img-fluid rounded-3" alt="" id="img-conocenos" />
+                    <img src="img/conocenos/foto2.webp" class="img-fluid rounded-3" alt="" id="img-conocenos"
+                        data-aos="fade-right" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="gallery" class="py-5 bg-light">
+    <section id="gallery" class="py-5 bg-light" data-aos="fade">
         <div class="container">
             <h2 class="text-center mb-4 display-5">Nuestra Galería</h2>
             <p class="text-center mb-5 tamaño-fuente">
@@ -235,7 +238,7 @@
                 mucho amor.
             </p>
 
-            <div class="row">
+            <div class="row" data-aos="fade">
                 <!-- Primeras 6 cartas visibles -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
@@ -370,7 +373,7 @@
             <h2 class="text-center mb-5 display-5">Por Favor Apóyanos</h2>
             <div class="row align-items-center">
                 <!-- Texto a la izquierda -->
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade">
                     <p class="text-start tamaño-fuente">
                         Tu donación es fundamental para el bienestar de nuestros animales.
                         Todo el dinero recaudado se destina a su alimentación,
@@ -383,7 +386,7 @@
                 </div>
 
                 <!-- Cards a la derecha -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade">
                     <div class="row">
                         <p class="text-center mb-4 tamaño-fuente">
                             Nuestros medios de donación
@@ -417,7 +420,7 @@
         </div>
     </section>
 
-    <section id="contact" class="py-5">
+    <section id="contact" class="py-5" data-aos="fade">
         <div class="container">
             <h2 class="text-center mb-5 display-5">Contáctanos</h2>
             <div class="row justify-content-center align-items-center box-big">
