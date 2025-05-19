@@ -32,7 +32,8 @@ font-family:monospace;
 .nav-link{
     font-weight: 600;
     color:#3a506b;
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    text-transform: uppercase;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .nav-link:hover{
  color: rgb(107, 204, 211);
