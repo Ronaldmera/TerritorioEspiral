@@ -1,28 +1,59 @@
-#donation{
-
+#donation {
+    position: relative;
+    background-image: url(../img/hero/hero2.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-#donation p{
-    color: #a7b7bb;
+
+#donation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.596);
+    z-index: 1;
 }
 
-#donation .random-Phrase{
+#donation .container {
+    position: relative;
+    z-index: 2;
+}
+
+#donation p {
+    color: #e4e2e2;
+}
+
+#donation .random-Phrase {
     font-style: italic;
     color: #FFFFFF;
 }
-#donation .container h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#5BC0BE;
+
+#donation .container h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5BC0BE;
     font-weight: bolder;
 }
-#donation .img-huellas{
+
+#donation .img-huellas {
     display: flex;
     height: 150px;
 }
-#donation .card-body img{
+
+#donation .card-body img {
     max-width: 30%;
-  /* height: auto; */
+    /* height: auto; */
 }
 
-#donation .card-body:hover{
+#donation .card-body:hover {
     background-color: #c3d4e6;
+}
+
+/* Para tablets y pantallas menores, desactivar efecto parallax */
+@media (max-width: 768px) {
+    #donation {
+        background-attachment: scroll;
+    }
 }
