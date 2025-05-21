@@ -18,6 +18,12 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   overflow-y: scroll;
 }
+/* estilos para svgs que decoran(secciones: estadisticas y contacto) */
+#img-decoracion-svg {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
 /* 
 tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
 @media (min-width: 1200px) {

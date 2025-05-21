@@ -9,10 +9,10 @@
  #estadisticas .text-black{
     color: #0B132B;
  }
- #estadisticas img{
-    height: 70px;
-    object-fit: cover;
- }
+.img-estadistica {
+  height: 70px;
+  width: auto;
+}
  #estadisticas p{
     color: #728083;
 }

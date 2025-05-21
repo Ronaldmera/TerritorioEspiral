@@ -8,14 +8,14 @@
 }
 
 #contact .card {
-  color: white;
+  color: #728083;
 }
 #contact .card a {
-  color: whitesmoke;
+  color: #728083;
 }
-#contact .card h3 {
+#contact .card h5 {
   font-weight: 100;
-  color: #ade0df;
+  color: #0B132B;
 }
 #contact .card img {
   height: 60px;
@@ -29,6 +29,9 @@
 .papa-cards {
   padding-top: 2.7rem;
 }
+/* .img-first{
+  max-width: 50%;
+} */
 /* @media (min-width: 992px) {
 .box-big{
   display: flex;
