@@ -41,17 +41,41 @@
     border-radius: 10px;
     max-width: 90%;
 }
-
 .botones a {
+    position: relative;
     display: inline-block;
     margin: 1rem 0.5rem;
     padding: 0.8rem 1.5rem;
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    transition: background 0.3s ease;
-    border: none;
+    border: 1px solid white;
+    overflow: hidden; 
+    z-index: 1;
 }
+
+.botones a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0; /* empezamos desde la derecha */
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    transition: width 0.4s ease;
+    z-index: -1; /* detrás del texto */
+}
+
+.botones a:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto; /* para que crezca hacia la izquierda */
+}
+
+.botones a:hover {
+    color: white;
+}
+
 .botones a:nth-child(1){
     background-color: #4f9fb3;
 }
@@ -59,10 +83,6 @@
     background-color: #24bd76;
 }
 .botones a:hover {
-    background-color: #5a685e;
+    background-color: #080b14;
+    border: 1px solid white;
 }
-/* .onda{
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-} */
