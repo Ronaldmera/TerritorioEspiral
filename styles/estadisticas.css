@@ -1,18 +1,33 @@
-#estadisticas .c1{
-    max-width: 50rem;
+#estadisticas .container-fluid {
+  max-width: 60rem;
+  background-color: #d1ebea;
 }
- #estadisticas h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #5bc0be;
-    font-weight: bolder;
+#estadisticas .c1 {
+  /* max-width: 60rem; */
 }
- #estadisticas .text-black{
-    color: #0B132B;
- }
+#estadisticas h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5bc0be;
+  font-weight: bolder;
+}
+#estadisticas .text-black {
+  color: #0b132b;
+}
 .img-estadistica {
   height: 70px;
   width: auto;
 }
- #estadisticas p{
-    color: #728083;
+#estadisticas p {
+  color: #728083;
+}
+
+#estadisticas .cards {
+  transition: transform 0.3s ease;
+}
+#estadisticas .cards:hover {
+  transform: scale(1.06);
+}
+.c2 {
+  position: relative;
+  bottom: 60px;
 }
