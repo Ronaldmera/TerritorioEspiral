@@ -15,13 +15,13 @@
 }
 #contact .card h5 {
   font-weight: 100;
-  color: #0B132B;
+  color: #0b132b;
 }
 #contact .card img {
   height: 60px;
 }
 .form-contact {
-  background-color: #D1EBEA;
+  background-color: #d1ebea;
 }
 .form-contact label {
   color: #ffff;
@@ -45,6 +45,10 @@
   }
   #contact .card {
     max-width: 180px;
+  }
+  #contact .card-body {
+    padding: 0.2rem;
+    font-size: 0.8rem;
   }
   .papa-cards {
     padding-top: 0rem;
