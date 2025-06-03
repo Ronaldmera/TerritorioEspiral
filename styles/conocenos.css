@@ -14,8 +14,13 @@
   color: #2693a1;
 }
 #img-conocenos {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-
   filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
+}
+@media (max-width: 1399px) {
+  #img-conocenos {
+    object-fit: contain;
+    max-height: 400px;
+  }
 }
