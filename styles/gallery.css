@@ -1,17 +1,18 @@
- #gallery h2{
-     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #5bc0be;
-    font-weight: bolder;
+#gallery h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5bc0be;
+  font-weight: bolder;
 }
-#gallery p{
-   color: #728083;
+#gallery p {
+  color: #728083;
 }
-#gallery .card{
-  border: 1px solid #5BC0BE;
+#gallery .card {
+  /* border: 1px solid #5bc0be; */
+  border: none;
 }
-#gallery .img{
-height: 300px;
-object-fit: cover;
+#gallery .img {
+  height: 300px;
+  object-fit: cover;
 }
 
 /* contenedor de cartas ocultas */
@@ -26,16 +27,16 @@ object-fit: cover;
   max-height: 3000px; /* aumenta este valor hasta que se vea la última tarjeta completa */
   opacity: 1;
 }
-#gallery .btn{
-  background-color: #24BD76;
+#gallery .btn {
+  background-color: #24bd76;
   color: whitesmoke;
 }
-#gallery .btn:hover{
+#gallery .btn:hover {
   background-color: #5bc0be;
 }
-@media (max-width:400px) {
-    #gallery .img{
-    height: 200px;
+@media (max-width: 400px) {
+  #gallery .img {
+    height: 140px;
     object-fit: cover;
   }
 }
