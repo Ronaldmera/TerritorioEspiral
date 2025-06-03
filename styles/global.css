@@ -31,7 +31,8 @@ tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que 
   #conocenos,
   #estadisticas,
   #gallery,
-  #donation .tamaño-fuente {
+  #donation,
+  #contact .tamaño-fuente {
     font-size: 1.2rem;
   }
 }

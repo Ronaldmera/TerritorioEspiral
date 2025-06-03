@@ -1,5 +1,5 @@
 #contact {
-  /* background-color: #ADE0DF; */
+  background-color: #f8f9fa;
 }
 #contact h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -8,14 +8,15 @@
 }
 
 #contact .card {
-  color: #728083;
+  color: #ade0df;
+  background-color: #212529;
 }
 #contact .card a {
-  color: #728083;
+  color: #ade0df;
 }
 #contact .card h5 {
   font-weight: 100;
-  color: #0b132b;
+  color: whitesmoke;
 }
 #contact .card img {
   height: 60px;
@@ -26,18 +27,6 @@
 .form-contact label {
   color: #ffff;
 }
-.papa-cards {
-  padding-top: 2.7rem;
-}
-/* .img-first{
-  max-width: 50%;
-} */
-/* @media (min-width: 992px) {
-.box-big{
-  display: flex;
-  flex-direction: column;
-}
-} */
 
 @media (max-width: 430px) {
   #contact .card img {
@@ -49,8 +38,5 @@
   #contact .card-body {
     padding: 0.2rem;
     font-size: 0.8rem;
-  }
-  .papa-cards {
-    padding-top: 0rem;
   }
 }
