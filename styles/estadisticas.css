@@ -35,9 +35,14 @@
   position: relative;
   bottom: 60px;
 }
+@media (max-width: 768px) {
+  .img-estadistica {
+    height: 50px;
+  }
+}
+
 @media (max-width: 400px) {
   .img-estadistica {
     height: 35px;
-    width: auto;
   }
 }
