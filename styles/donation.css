@@ -1,7 +1,7 @@
 #donation {
   position: relative;
   background-image: url(../img/hero/hero2.webp);
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
