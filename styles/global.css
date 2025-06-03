@@ -12,10 +12,11 @@ body,html{
 #contact {
   scroll-margin-top: 80px; /* Ajusta según el alto de tu navbar */
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
   background-color: #ffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow-y: scroll;
 }
 /* estilos para svgs que decoran(secciones: estadisticas y contacto) */

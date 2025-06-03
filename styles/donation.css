@@ -41,6 +41,10 @@
   display: flex;
   height: 150px;
 }
+#img-donar {
+  display: flex;
+  height: 150px;
+}
 
 #donation .card-body img {
   max-width: 30%;
@@ -73,6 +77,11 @@
   padding: 2px 6px;
   border-radius: 4px;
 }
+/*sombra oscura en bordes de imagenes de garra y donar*/
+#donation .img-huellas,
+#img-donar {
+  filter: drop-shadow(2px 4px 10px rgba(26, 24, 24, 0.719));
+}
 
 /* Para tablets y pantallas menores, desactivar efecto parallax */
 @media (max-width: 768px) {
@@ -80,6 +89,10 @@
     background-attachment: scroll;
   }
   #donation .img-huellas {
+    height: 85px;
+  }
+  #img-donar {
+    display: flex;
     height: 85px;
   }
 }
