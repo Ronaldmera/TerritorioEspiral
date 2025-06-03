@@ -1,22 +1,21 @@
-#conocenos{
+#conocenos {
   /* background-color: rgb(10, 12, 12); */
- /* background-color: #121212; */
+  /* background-color: #121212; */
 }
-#conocenos h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #5bc0be;
-    font-weight: bolder;
+#conocenos h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5bc0be;
+  font-weight: bolder;
 }
-#conocenos p{
-    color: #728083;
+#conocenos p {
+  color: #728083;
 }
-#conocenos .phrase{
+#conocenos .phrase {
   color: #2693a1;
 }
-#img-conocenos{
-    object-fit: cover; 
-    /* height: 300px;
-    width: auto; */
+#img-conocenos {
+  object-fit: cover;
+  width: 100%;
 
-     filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
+  filter: drop-shadow(1px 1px 3px rgb(133, 209, 167));
 }

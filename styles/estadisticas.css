@@ -24,9 +24,13 @@
 #estadisticas .cards {
   transition: transform 0.3s ease;
 }
-#estadisticas .cards:hover {
-  transform: scale(1.06);
+/*solo en dispositivos que no sean tactiles se activa el hover*/
+@media (hover: hover) and (pointer: fine) {
+  #estadisticas .cards:hover {
+    transform: scale(1.06);
+  }
 }
+
 .c2 {
   position: relative;
   bottom: 60px;
