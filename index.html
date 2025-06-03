@@ -55,6 +55,7 @@
     <script src="script/sendEmail.js" defer></script>
     <script src="script/randomPhrase.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/yearFooter.js" defer></script>
   </head>
 
   <body>
@@ -831,7 +832,7 @@
       <!-- Footer -->
       <footer
         class="text-center text-lg-start"
-        style="background-color: #ade0df"
+        style="background-color: #728083"
       >
         <!-- Grid container -->
         <div class="container p-4 pb-0">
@@ -892,40 +893,42 @@
             <div class="row d-flex align-items-center">
               <div class="col-md-7 col-lg-8 text-center text-md-start">
                 <div class="p-3">
-                  © 2025 Fundación Territorio Espiral. Todos los derechos
-                  reservados.
+                  © <span id="year"></span> Fundación Territorio Espiral. Todos
+                  los derechos reservados.
                 </div>
               </div>
 
-              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                <a class="btn" role="button"
-                  ><i
-                    ><img
-                      src="img/footer/facebook .png"
-                      class="img-footer"
-                      alt="" /></i
-                ></a>
-                <a class="btn" role="button"
-                  ><i
-                    ><img
-                      src="img/footer/instagram.png"
-                      class="img-footer"
-                      alt="" /></i
-                ></a>
-                <a class="btn" role="button"
-                  ><i
-                    ><img
-                      src="img/footer/whatsapp.png"
-                      class="img-footer"
-                      alt="" /></i
-                ></a>
-                <a class="btn" role="button"
-                  ><i
-                    ><img
-                      src="img/footer/tik-tok.png"
-                      class="img-footer"
-                      alt="" /></i
-                ></a>
+              <div
+                class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end d-flex justify-content-center justify-content-md-end gap-3"
+              >
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <i class="bi bi-facebook fs-5"></i>
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <i class="bi bi-instagram fs-5"></i>
+                </a>
+                <a
+                  href="https://wa.me/1234567890"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <i class="bi bi-whatsapp fs-5"></i>
+                </a>
+                <a
+                  href="https://tiktok.com"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <i class="bi bi-tiktok fs-5"></i>
+                </a>
               </div>
             </div>
           </section>
