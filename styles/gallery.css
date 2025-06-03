@@ -14,6 +14,24 @@
   height: 300px;
   object-fit: cover;
 }
+#gallery .container .card-body .card-title.cat::before,
+#gallery .container .card-body .card-title.dog::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+/*agregando el icono de gato y perro antes del nombre en cada card*/
+#gallery .container .card-body .card-title.cat::before {
+  background-image: url(/img/gallery/icon-cat.svg);
+}
+
+#gallery .container .card-body .card-title.dog::before {
+  background-image: url(/img/gallery/icon-dog.svg);
+}
 
 /* contenedor de cartas ocultas */
 .collapse-cards {
