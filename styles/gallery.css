@@ -1,13 +1,4 @@
-#gallery h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #5bc0be;
-  font-weight: bolder;
-}
-#gallery p {
-  color: #728083;
-}
 #gallery .card {
-  /* border: 1px solid #5bc0be; */
   border: none;
 }
 #gallery .img {

@@ -1,19 +1,15 @@
 #contact {
   background-color: #f8f9fa;
 }
-#contact h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #5bc0be;
-  font-weight: bolder;
-}
-
 #contact .card {
   color: #ade0df;
   background-color: #212529;
 }
-#contact .card a {
+#contact .card-body p,
+a {
   color: #ade0df;
 }
+
 #contact .card h5 {
   font-weight: 100;
   color: whitesmoke;

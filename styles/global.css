@@ -25,6 +25,13 @@ body {
   width: 100%;
   height: auto;
 }
+
+h2 {
+  color: #5bc0be;
+}
+p {
+  color: #728083;
+}
 /* 
 tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
 @media (min-width: 1200px) {

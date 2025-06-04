@@ -25,6 +25,7 @@
 
 #hero p {
   font-size: 1.4rem;
+  color: whitesmoke;
 }
 
 /* imagen del hero */
@@ -41,7 +42,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  /* background-color: rgba(0, 0, 0, 0.5);  */
   padding: 20px;
   border-radius: 10px;
   max-width: 90%;
