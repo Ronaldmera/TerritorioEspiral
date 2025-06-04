@@ -1,6 +1,8 @@
 #estadisticas .container-fluid {
-  max-width: 60rem;
   background-color: #d1ebea;
+}
+.c1 {
+  max-width: 60rem;
 }
 #estadisticas .text-black {
   color: #0b132b;
