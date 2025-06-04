@@ -1,18 +1,17 @@
-
 /* boton hamburguesa */
 /* padre del menu hamburguesa */
-.navbar{
-    background-color: #FFFF;
+.navbar {
+  background-color: #ffff;
 }
 .navbar-toggler {
-  background-color:#3a506b;
+  background-color: #3a506b;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
   padding: 1rem;
-  font-size: 1.8rem; 
+  font-size: 1.8rem;
 }
 /* las 3 lineas del menu hamburguesa */
 .navbar-toggler .bar {
@@ -22,21 +21,20 @@
   border-radius: 2px;
   transition: all 0.3s ease;
 }
-.navbar .name{
-font-family:monospace;
-  font-weight:bolder;
+.navbar .name {
+  font-weight: bolder;
   font-size: 2rem;
   font-style: oblique;
-  color:#5bc0be;
+  color: #5bc0be;
 }
-.nav-link{
-    font-weight: 600;
-    color:#3a506b;
-    text-transform: uppercase;
-    font-size: clamp(0.8rem, 2vw, 1rem);
+.nav-link {
+  font-weight: 600;
+  color: #3a506b;
+  text-transform: uppercase;
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
-.nav-link:hover{
- color: rgb(107, 204, 211);
+.nav-link:hover {
+  color: rgb(107, 204, 211);
 }
 /* Cuando el botón tiene la clase "open" (cuando se hace clic) */
 .navbar-toggler.open .bar:nth-child(1) {
@@ -51,19 +49,19 @@ font-family:monospace;
   transform: rotate(-45deg) translate(6px, -6px); /* Rotamos la tercera barra */
 }
 .navbar.fixed-top {
-    padding-right: 0 !important;
-    margin-right: 0 !important;
-    right: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  right: 0 !important;
 }
 
 @media (max-width: 720px) {
-  .navbar .name{
-   font-size: 1.6rem;
+  .navbar .name {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 480px) {
-  .navbar .name{
-   font-size:1rem ;
+  .navbar .name {
+    font-size: 1rem;
   }
 }
