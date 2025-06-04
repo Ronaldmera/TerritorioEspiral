@@ -1,9 +1,9 @@
 #donation {
   position: relative;
   background-image: url(../img/hero/hero2.webp);
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #donation::before {
@@ -81,12 +81,7 @@
 #img-donar {
   filter: drop-shadow(2px 4px 10px rgba(26, 24, 24, 0.719));
 }
-
-/* Para tablets y pantallas menores, desactivar efecto parallax */
 @media (max-width: 768px) {
-  #donation {
-    background-attachment: scroll;
-  }
   #donation .img-huellas {
     height: 85px;
   }
