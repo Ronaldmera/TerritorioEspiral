@@ -19,9 +19,13 @@ a {
 }
 .form-contact {
   background-color: #d1ebea;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.541) !important;
 }
 .form-contact label {
   color: #ffff;
+}
+.form-control:focus {
+  border-color: black; /* morado de Bootstrap (puedes cambiarlo) */
 }
 
 @media (max-width: 430px) {
