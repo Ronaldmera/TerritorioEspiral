@@ -107,8 +107,9 @@
     font-size: 1rem;
   }
   .botones a {
-    margin: 1rem 0.5rem;
-    padding: 0.4rem 1.5rem;
+    margin: 0.2rem 0.5rem;
+    padding: 0.3rem 0.5rem;
+    bottom: 0.5vh;
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
