@@ -31,9 +31,8 @@
 /* imagen del hero */
 #hero .c-img {
   width: 100%;
-  /* height: 95vh; */
+  height: 95vh;
   object-fit: cover;
-  max-height: 95vh;
 }
 
 /* contenedor del texto encima del hero */
