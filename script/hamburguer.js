@@ -1,9 +1,4 @@
 window.addEventListener("DOMContentLoaded", function () {
-  //inicializando AOS
-  AOS.init({
-    offset: 200, // en píxeles
-  });
-
   const menuBtn = document.getElementById("menu-btn");
   const navbarCollapse = document.getElementById("navbarNavDropdown");
   const navbarLinks = document.querySelectorAll(".navbar-nav .nav-link");
