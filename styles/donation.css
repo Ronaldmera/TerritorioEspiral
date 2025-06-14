@@ -52,6 +52,7 @@
 
 #donation .card-body:hover {
   background-color: #c3d4e6;
+  border-radius: 20px 4px;
 }
 /*agregados elementos de decoracion en cards de donacion*/
 #donation .card .nequi::after {
