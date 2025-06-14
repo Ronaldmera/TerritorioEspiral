@@ -16,7 +16,8 @@ html,
 body {
   overflow-x: hidden;
   background-color: #ffff;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Franklin Gothic Medium", "Open Sans", Arial, sans-serif !important;
   overflow-y: scroll;
 }
 /* estilos para svgs que decoran(secciones: estadisticas y contacto) */
