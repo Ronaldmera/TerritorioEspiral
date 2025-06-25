@@ -51,13 +51,14 @@
   position: relative;
   display: inline-block;
   margin: 1rem 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   color: white;
   text-decoration: none;
-  border-radius: 20px;
+
   border: 1px solid white;
   overflow: hidden;
   z-index: 1;
+  min-width: 120px;
 }
 
 .botones a::before {
