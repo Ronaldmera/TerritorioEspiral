@@ -20,6 +20,9 @@
   #hero {
     padding-top: 2rem;
   }
+  #hero .row {
+    padding: 2rem 0;
+  }
   .hero-carousel {
     height: 18rem;
   }
