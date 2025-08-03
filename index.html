@@ -111,8 +111,7 @@
       </div>
     </nav>
 
-    <!-- Aquí agregamos un margen superior al contenido -->
-    <section id="hero" class="pt-5 w-100">
+    <!-- <section id="hero" class="pt-5 w-100">
       <div
         id="carousel-img"
         class="carousel slide mx-auto position-relative"
@@ -153,7 +152,7 @@
           </div>
         </div>
 
-        <!-- Texto encima del slider -->
+       
         <div class="box-hero container text-white text-center">
           <h1 class="display-4 fw-bold subtitle">
             Dales Una Segunda Oportunidad
@@ -187,7 +186,53 @@
           <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
-    </section>
+    </section> -->
+<section id="hero" class="pt-5 w-100">
+  <div class="container py-5">
+    <div class="row align-items-center g-4">
+      <!-- Columna izquierda: texto y botones -->
+      <div class="col-12 col-lg-6 px-3 px-lg-5">
+        <h1 class="display-5 fw-bold subtitle">
+          Dales Una Segunda Oportunidad
+        </h1>
+        <p class="lead">
+          Cada día rescatamos animales abandonados que merecen un hogar lleno
+          de amor. Ayúdanos a seguir cambiando vidas.
+        </p>
+        <div class="botones d-flex flex-wrap gap-3 mt-3">
+          <a href="#donation" class="btn btn-dark">Donar</a>
+          <a href="#contact" class="btn btn-outline-dark">Contáctanos</a>
+        </div>
+      </div>
+      
+      <!-- Columna derecha: carrusel -->
+      <div class="col-12 col-lg-6 px-3 px-lg-5">
+        <div id="heroCarousel" class="carousel slide rounded-5 overflow-hidden hero-carousel" data-bs-ride="carousel">
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active h-100">
+              <img src="img/hero/hero3.webp" class="d-block w-100 h-100 object-fit-cover" alt="foto 1">
+            </div>
+            <div class="carousel-item h-100">
+              <img src="img/hero/hero2.webp" class="d-block w-100 h-100 object-fit-cover" alt="foto 2">
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     <section id="estadisticas" class="text-center py-0 tamaño-fuente">
       <div class="container-fluid py-5">
         <div class="container c1">
