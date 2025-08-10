@@ -17,10 +17,19 @@
   position: relative;
   z-index: 2; /* Encima del overlay */
 }
-.btn-green {
-  background-color: #24bd76d4 !important;
-  color: white;
+.btn-blue {
+  background-color: #a2e0df;
+  color: rgb(28, 27, 27);
   border: 1px solid white;
+}
+.btn-blue:hover {
+  background-color: #5bc0be;
+  color: white;
+}
+#hero .btn-outline-light:hover {
+  background-color: #126a6a !important;
+  color: white;
+  border-color: #5bc0be;
 }
 .hero-carousel {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.66);
@@ -32,7 +41,7 @@
   padding: 5rem 0;
 }
 .subtitle {
-  color: #5bc0be;
+  color: #a2e0df;
 }
 .hero-carousel {
   height: 40.75rem;
