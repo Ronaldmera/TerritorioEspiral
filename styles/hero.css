@@ -1,3 +1,26 @@
+#hero {
+  position: relative;
+  background-image: url("../img/hero/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.651); /* Oscurece el fondo */
+  z-index: 1; /* Detrás del texto */
+}
+
+#hero > .container {
+  position: relative;
+  z-index: 2; /* Encima del overlay */
+}
+.btn-outline-dark {
+  background-color: #5bc0be !important;
+}
+
 /* Estilo para mantener proporciones del carrusel */
 
 #hero .row {
@@ -9,7 +32,16 @@
 .hero-carousel {
   height: 40.75rem;
 }
-
+@media (max-width: 1600px) {
+  .hero-carousel {
+    height: 30rem;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-carousel {
+    height: 25rem;
+  }
+}
 @media (max-width: 991.98px) {
   .hero-carousel {
     height: 22rem;
