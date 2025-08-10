@@ -1,6 +1,6 @@
 #hero {
   position: relative;
-  background-image: url("../img/hero/fondo.jpg");
+  background-image: url("../img/hero/fondo.webp");
   background-size: cover;
   background-position: center;
 }
@@ -9,7 +9,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.651); /* Oscurece el fondo */
+  background-color: rgba(0, 0, 0, 0.875); /* Oscurece el fondo */
   z-index: 1; /* Detrás del texto */
 }
 
@@ -17,8 +17,13 @@
   position: relative;
   z-index: 2; /* Encima del overlay */
 }
-.btn-outline-dark {
-  background-color: #5bc0be !important;
+.btn-green {
+  background-color: #24bd76d4 !important;
+  color: white;
+  border: 1px solid white;
+}
+.hero-carousel {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.66);
 }
 
 /* Estilo para mantener proporciones del carrusel */
