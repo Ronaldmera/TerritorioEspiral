@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -55,7 +55,6 @@
     <script src="script/modalImgZoom.js" defer></script>
     <script src="script/sendEmail.js" defer></script>
     <script src="script/randomPhrase.js" defer></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script/yearFooter.js" defer></script>
   </head>
 
@@ -110,51 +109,35 @@
         </div>
       </div>
     </nav>
-<section id="hero" class="pt-0 w-100">
-  <div class="container py-5">
-    <div class="row align-items-center g-4">
-      <!-- Columna izquierda: texto y botones -->
-      <div class="col-12 col-lg-6 px-3 px-lg-5">
-        <h1 class="display-5 fw-bold subtitle">
-          Dales Una Segunda Oportunidad
-        </h1>
-        <p class="lead text-white">
-          Cada día rescatamos animales abandonados que merecen un hogar lleno
-          de amor. Ayúdanos a seguir cambiando vidas.
-        </p>
-        <div class="botones d-flex flex-wrap gap-3 mt-3">
-          <a href="#donation" class="btn btn-blue">Donar</a>
-          <a href="#contact" class="btn btn-outline-light">Contáctanos</a>
-        </div>
-      </div>
-      
-      <!-- Columna derecha: carrusel -->
-      <div class="col-12 col-lg-6 px-3 px-lg-5">
-        <div id="heroCarousel" class="carousel slide rounded-5 overflow-hidden hero-carousel" data-bs-ride="carousel">
-          <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100">
-              <img src="img/hero/hero3.webp" class="d-block w-100 h-100 object-fit-cover" alt="foto 1">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/hero/hero2.webp" class="d-block w-100 h-100 object-fit-cover" alt="foto 2">
+    <section id="hero" class="pt-0 w-100">
+      <div class="container py-5">
+        <div class="row align-items-center g-4">
+          <!-- Columna izquierda: texto y botones -->
+          <div class="col-12 col-lg-6 px-3 px-lg-5">
+            <h1 class="display-5 fw-bold subtitle">
+              Dales Una Segunda Oportunidad
+            </h1>
+            <p class="lead text-white">
+              Cada día rescatamos animales abandonados que merecen un hogar
+              lleno de amor. Ayúdanos a seguir cambiando vidas.
+            </p>
+            <div class="botones d-flex flex-wrap gap-3 mt-3">
+              <a href="#donation" class="btn btn-blue">Donar</a>
+              <a href="#contact" class="btn btn-outline-light">Contáctanos</a>
             </div>
           </div>
 
-          <!-- Controles -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-          </button>
+          <!-- Columna derecha: imagen -->
+          <div class="col-12 col-lg-6 text-center">
+            <img
+              src="img/hero/hero2.webp"
+              alt="Perro rescatado"
+              class="img-fluid rounded-3"
+            />
+          </div>
         </div>
       </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <section id="estadisticas" class="text-center py-0 tamaño-fuente">
       <div class="container-fluid py-5">
@@ -179,7 +162,7 @@
         <div class="row g-2 g-sm-4">
           <div class="col-6 col-sm-6 col-md-3">
             <div
-              class="card-estadistica p-4 shadow rounded bg-white h-100 cards"
+              class="card-estadistica p-4 shadow rounded bg-white2 h-100 cards"
             >
               <h3 class="fw-bold">+500</h3>
               <p>Animales rescatados en los últimos 10 años</p>
@@ -193,7 +176,7 @@
           </div>
           <div class="col-6 col-sm-6 col-md-3">
             <div
-              class="card-estadistica p-4 shadow rounded bg-white h-100 cards"
+              class="card-estadistica p-4 shadow rounded bg-white2 h-100 cards"
             >
               <h3 class="fw-bold">+40</h3>
               <p class="mb-4">Animales dados en adopción</p>
@@ -207,7 +190,7 @@
           </div>
           <div class="col-6 col-sm-6 col-md-3">
             <div
-              class="card-estadistica p-4 shadow rounded bg-white h-100 cards"
+              class="card-estadistica p-4 shadow rounded bg-white2 h-100 cards"
             >
               <h3 class="fw-bold">+110</h3>
               <p>Animales cuidados actualmente</p>
@@ -221,7 +204,7 @@
           </div>
           <div class="col-6 col-sm-6 col-md-3">
             <div
-              class="card-estadistica p-4 shadow rounded bg-white h-100 cards"
+              class="card-estadistica p-4 shadow rounded bg-white2 h-100 cards"
             >
               <h3 class="fw-bold">+19.800</h3>
               <p>Seguidores en Tiktok</p>
@@ -320,15 +303,13 @@
       </div>
     </section>
 
-    <section id="gallery" class="py-5 bg-light">
+    <section id="gallery" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4 display-5">Nuestra Galería</h2>
         <p class="text-center mb-5 tamaño-fuente w-75 mx-auto">
           Conoce a algunos de los animalitos que hemos rescatado, cada uno con
           su propia historia y personalidad única. Les brindamos cuidado,
           respeto y mucho amor.
-          <br>
-          <i class="bi bi-image text-info"></i>
         </p>
 
         <div class="row lh-sm">
@@ -466,8 +447,8 @@
               <div class="card-body">
                 <h5 class="card-title dog">Simón</h5>
                 <p class="card-text">
-                Simón, alrededor de 6 años. Juguetón, enérgico y muy territorial. Siempre alerta.
-</p>
+                  Simón, alrededor de 6 años. Juguetón, enérgico y muy
+                  territorial. Siempre alerta.
                 </p>
               </div>
             </div>
@@ -482,7 +463,10 @@
               />
               <div class="card-body">
                 <h5 class="card-title cat">Felicia</h5>
-                <p class="card-text">Felicia, una gata feral con un temperamento muy independiente y reservado.</p>
+                <p class="card-text">
+                  Felicia, una gata feral con un temperamento muy independiente
+                  y reservado.
+                </p>
               </div>
             </div>
           </div>
@@ -566,7 +550,7 @@
                 class="text-decoration-none text-dark"
               >
                 <div
-                  class="card h-100 text-center shadow-sm bg-light position-relative"
+                  class="card h-100 text-center shadow-sm bg-light2 position-relative"
                 >
                   <div class="card-body nequi">
                     <img
@@ -589,7 +573,7 @@
                 class="text-decoration-none text-dark d-block"
               >
                 <div
-                  class="card h-100 text-center shadow-sm bg-light position-relative"
+                  class="card h-100 text-center shadow-sm bg-light2 position-relative"
                 >
                   <div class="card-body paypal">
                     <img
@@ -617,6 +601,11 @@
           escribirnos. Juntos cambiamos vidas. 🐕🐾🐈
         </p>
         <div class="row d-flex justify-content-center align-items-center">
+          <img
+            src="img/contacto/hogar.webp"
+            class="img-fluid w-50 mx-auto d-block"
+            alt=""
+          />
           <!-- Formulario de contacto -->
           <div class="col-12 col-lg-6 pt-1 pt-lg-0">
             <form class="p-4 rounded shadow-sm form-contact" id="form-contact">
@@ -716,10 +705,10 @@
                   Hogar y Protectora Animal Territorio Espiral
                 </h6>
                 <p>
-                  Territorio Espiral es un hogar y protectora animal sin ánimo de lucro
-                  dedicada al rescate, protección y bienestar de los animales.
-                  Creemos que todos los seres vivos merecen un lugar seguro y
-                  amoroso donde puedan vivir dignamente.
+                  Territorio Espiral es un hogar y protectora animal sin ánimo
+                  de lucro dedicada al rescate, protección y bienestar de los
+                  animales. Creemos que todos los seres vivos merecen un lugar
+                  seguro y amoroso donde puedan vivir dignamente.
                 </p>
               </div>
               <!-- Grid column -->
@@ -742,7 +731,9 @@
                 <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
                 <p>
                   <i class="fas fa-envelope mr-3"></i>
-                 <a href="mailto:territorioespiral1111@gmail.com">territorioespiral1111@gmail.com</a>
+                  <a href="mailto:territorioespiral1111@gmail.com"
+                    >territorioespiral1111@gmail.com</a
+                  >
                 </p>
                 <p><i class="fas fa-phone mr-3"></i> +57 3213766390</p>
                 <p><i class="fas fa-print mr-3"></i> +57 320 8354515</p>
@@ -759,8 +750,8 @@
             <div class="row d-flex align-items-center">
               <div class="col-md-7 col-lg-8 text-center text-md-start">
                 <div class="p-3">
-                  © <span id="year"></span> Hogar y Protectora Animal Territorio Espiral. Todos
-                  los derechos reservados.
+                  © <span id="year"></span> Hogar y Protectora Animal Territorio
+                  Espiral. Todos los derechos reservados.
                 </div>
               </div>
 

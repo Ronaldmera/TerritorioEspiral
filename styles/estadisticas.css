@@ -5,13 +5,16 @@
   padding-bottom: 20px;
 }
 #estadisticas .container-fluid {
-  background-color: #d1ebea;
+  background-color: #e4e2df;
 }
 .c1 {
   max-width: 60rem;
 }
 #estadisticas .text-black {
   color: #0b132b;
+}
+#estadisticas .bg-white2 {
+  background-color: #ffffff86;
 }
 .img-estadistica {
   height: 70px;

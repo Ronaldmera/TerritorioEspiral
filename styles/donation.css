@@ -45,6 +45,9 @@
   display: flex;
   height: 150px;
 }
+#donation .container .bg-light2 {
+  background-color: #f2f1f0;
+}
 
 #donation .card-body img {
   max-width: 30%;
@@ -60,7 +63,7 @@
   position: absolute;
   bottom: 8px;
   right: 8px;
-  background-color: #d1005d;
+  background-color: #da8367;
   color: white;
   font-size: 0.7rem;
   padding: 2px 6px;
@@ -71,7 +74,7 @@
   position: absolute;
   bottom: 8px;
   right: 8px;
-  background-color: #0070ba;
+  background-color: #58b7af;
   color: white;
   font-size: 0.7rem;
   padding: 2px 6px;

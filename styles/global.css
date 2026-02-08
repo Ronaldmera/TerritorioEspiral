@@ -15,7 +15,7 @@ body,html{
 html,
 body {
   overflow-x: hidden;
-  background-color: #ffff;
+  background-color: #e4e2df;
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Franklin Gothic Medium", "Open Sans", Arial, sans-serif !important;
   overflow-y: scroll;
@@ -28,7 +28,7 @@ body {
 }
 
 h2 {
-  color: #5bc0be;
+  color: #da8367;
 }
 p {
   color: #728083;
